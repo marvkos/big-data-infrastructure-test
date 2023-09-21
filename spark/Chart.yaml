@@ -8,4 +8,4 @@ appVersion: "1.0"
 dependencies:
   - name: spark
     version: 3.4.1
-    repository: oci://registry-1.docker.io/bitnamicharts/spark
+    repository: oci://registry-1.docker.io/bitnamicharts
