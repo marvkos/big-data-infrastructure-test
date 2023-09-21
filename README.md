@@ -1,4 +1,4 @@
-# ArgoCD Test Project
+# ArgoCD Demo Project
 This project will test ArgoCD in a minicube environment.
 
 ## Resources
