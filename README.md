@@ -9,6 +9,8 @@ https://argo-cd.readthedocs.io/en/stable/operator-manual/declarative-setup/
 
 https://kubernetes.io/docs/concepts/workloads/controllers/deployment/
 
+https://artifacthub.io/packages/helm/bitnami/spark
+
 ## Commands
 ```
 minikube start
@@ -27,4 +29,5 @@ kubectl apply -n argocd -f nginx-app.yaml
 minikube service -n nginx nginx-service
 
 kubectl apply -n argocd -f spark-app.yaml
+minikube service -n spark spark-master-svc
 ```
