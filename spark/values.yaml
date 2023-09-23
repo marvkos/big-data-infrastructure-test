@@ -1,3 +1,6 @@
 spark:
   worker:
     replicaCount: 2
+  service:
+    nodePorts:
+      http: 80
