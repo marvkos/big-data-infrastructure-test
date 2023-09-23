@@ -1,0 +1,11 @@
+apiVersion: v2
+name: big-data-kafka
+description: An Umbrelle Helm chart
+type: application
+version: 0.1.0
+appVersion: "1.0"
+
+dependencies:
+  - name: kafka
+    version: 25.1.11
+    repository: oci://registry-1.docker.io/bitnamicharts

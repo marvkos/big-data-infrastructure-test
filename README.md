@@ -25,9 +25,11 @@ kubectl patch svc argocd-server -n argocd -p '{"spec": {"type": "LoadBalancer"}}
 kubectl port-forward svc/argocd-server -n argocd 8080:443
 minikube service -n argocd argocd-server
 
-kubectl apply -n argocd -f nginx-app.yaml
+kubectl apply -n argocd -f apps/nginx-app.yaml
 minikube service -n nginx nginx-service
 
-kubectl apply -n argocd -f spark-app.yaml
+kubectl apply -n argocd -f apps/spark-app.yaml
 minikube service -n spark spark-master-svc
+
+kubectl apply -n argocd -f apps/kafka-app.yaml
 ```
