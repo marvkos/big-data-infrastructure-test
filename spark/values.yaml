@@ -2,4 +2,4 @@ spark:
   worker:
     replicaCount: 2
   service:
-    type: NodePort
+    type: LoadBalancer
