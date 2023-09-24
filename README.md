@@ -36,7 +36,9 @@ minikube service -n spark spark-master-svc
 kubectl apply -n argocd -f apps/kafka-app.yaml
 minikube service -n kafka kafka
 ```
+
 ## Ingress
 ```
 minikube addons enable ingress
+minikube addons disable ingress
 ```
