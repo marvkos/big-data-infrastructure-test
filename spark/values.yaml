@@ -3,8 +3,5 @@ spark:
     replicaCount: 2
   service:
     type: NodePort
-    nodePorts:
-      http: 30080
-      cluster: 30077
   ingress:
     enabled: true
