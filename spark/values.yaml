@@ -5,6 +5,6 @@ spark:
     type: NodePort
     nodePorts:
       http: 30080
-      cluster: 37077
+      cluster: 30077
   ingress:
     enabled: true
