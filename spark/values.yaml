@@ -1,3 +1,10 @@
 spark:
   worker:
     replicaCount: 2
+  service:
+    type: NodePort
+    nodePorts:
+      http: 8081
+      cluster: 7077
+  ingress:
+    enabled: true
