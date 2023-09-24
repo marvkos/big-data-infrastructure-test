@@ -11,6 +11,8 @@ https://kubernetes.io/docs/concepts/workloads/controllers/deployment/
 
 https://artifacthub.io/packages/helm/bitnami/spark
 
+https://artifacthub.io/packages/helm/bitnami/kafka
+
 ## Commands
 ```
 minikube start
@@ -32,4 +34,9 @@ kubectl apply -n argocd -f apps/spark-app.yaml
 minikube service -n spark spark-master-svc
 
 kubectl apply -n argocd -f apps/kafka-app.yaml
+minikube service -n kafka kafka
+```
+## Ingress
+```
+minikube addons enable ingress
 ```
