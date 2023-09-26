@@ -1,3 +1,7 @@
+submitServiceAccount:
+  create: false
+  name: spark-submit-user
+
 spark:
   worker:
     replicaCount: 1
