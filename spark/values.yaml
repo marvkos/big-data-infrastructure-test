@@ -1,5 +1,5 @@
 submitServiceAccount:
-  create: false
+  create: true
   name: spark-submit-user
 
 spark:
