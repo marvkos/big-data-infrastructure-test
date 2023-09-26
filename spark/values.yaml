@@ -1,6 +1,9 @@
 submitServiceAccount:
   create: true
   name: spark-submit-user
+  role: spark-submitter
+  binding: spark-submitter-user-binding
+  token: spark-submit-user-token
 
 spark:
   worker:
