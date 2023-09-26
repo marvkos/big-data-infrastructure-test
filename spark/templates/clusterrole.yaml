@@ -5,6 +5,6 @@ metadata:
   name: {{ .Values.submitServiceAccount.role }}
 rules:
 - apiGroups: [""]
-  resources: ["pods", "configmaps"]
+  resources: ["pods", "configmaps", "persistentvolumeclaims"]
   verbs: ["get", "list", "watch", "create", "update", "patch", "delete", "deletecollection"]
 {{- end }}
