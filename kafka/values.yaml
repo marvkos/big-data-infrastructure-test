@@ -1,6 +1,5 @@
 kafka:
-  extraConfig:
-    logRetentionHours: 1
+  extraConfig: "logRetentionHours: 1"
 
   controller:
     replicaCount: 3
