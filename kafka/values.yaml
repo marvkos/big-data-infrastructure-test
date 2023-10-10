@@ -1,6 +1,6 @@
 kafka:
   controller:
-    replicaCount: 2
+    replicaCount: 3
   broker:
     replicaCount: 0
   
