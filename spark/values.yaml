@@ -6,5 +6,8 @@ submitServiceAccount:
   token: spark-submit-user-token
 
 spark:
+  service:
+    type: NodePort
+  
   worker:
     replicaCount: 1
