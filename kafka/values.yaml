@@ -11,9 +11,7 @@ kafka:
     enabled: true
     controller:
       service:
-        type: LoadBalancer
-      containerPorts:
-        external: 9094
+        type: NodePort
     autoDiscovery:
       enabled: true
 
