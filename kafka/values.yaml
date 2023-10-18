@@ -11,10 +11,9 @@ kafka:
     enabled: true
     controller:
       service:
-        type: ClusterIP
-        ports:
-          external: 9094
-        domain: 172.29.17.2
+        type: NodePort
+    autoDiscovery:
+      enabled: true
 
   serviceAccount:
     create: true
