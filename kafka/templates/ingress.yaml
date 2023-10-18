@@ -15,5 +15,5 @@ spec:
               service:
                 name:  kafka-controller-0-external
                 port:
-                  number: 9094
+                  number: 9095
 {{- end }}
