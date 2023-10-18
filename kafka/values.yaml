@@ -2,6 +2,11 @@ kafka:
   extraConfig: |
     log.retention.hours=1
 
+  sasl:
+    client:
+      users: ["student1"]
+      passwords: ["password1"]
+
   controller:
     replicaCount: 3
   broker:
